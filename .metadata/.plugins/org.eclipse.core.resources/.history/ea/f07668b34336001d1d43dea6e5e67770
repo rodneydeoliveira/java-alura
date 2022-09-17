@@ -1,0 +1,9 @@
+
+public class TiposCharString {
+	public static void main(String[] args) {
+		char letra = 'a';
+		char numero = 66;
+		System.out.println(letra, numero);
+	}
+
+}
