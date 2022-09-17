@@ -1,0 +1,9 @@
+
+public class TestaWhile {
+	int contador = 0;
+	
+	while (contador >= 10) {
+		System.out.println("Contador = " + contador);
+		contador ++;
+	}
+}

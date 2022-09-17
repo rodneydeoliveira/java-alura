@@ -10,8 +10,10 @@ public class TestaCondicional2 {
 		System.out.println("Digite o número de pessoas: ");
 		int quantidadePessoas = entrada.nextInt();
 
-		if (idade >= 18 || quantidadePessoas >= 2) {
-			System.out.println("Você pode entrar!");
+		boolean acompanhado = quantidadePessoas >= 2;
+
+		if (idade >= 18 || acompanhado) {
+			System.out.println("Você pode entrar! O valor de acompanhado é = " + acompanhado);
 		} else {
 			System.out.println("Pode não pode entrar!");
 		}
