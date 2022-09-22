@@ -1,0 +1,11 @@
+
+public class ExercicioFatorial {
+
+		public static void main(String[] args) {
+			int fatorial;
+			for(fatorial = 1; fatorial <11; fatorial ++) {
+				fatorial *= 1;
+				System.out.println(fatorial);
+			}
+		}
+}
